@@ -1,4 +1,4 @@
-Bagi Anda yang menerapkan cache untuk meningkatkan kinerja WordPress, baik itu cache di tingkat aplikasi menggunakan plugin, page cache di tingkat server seperti Varnish, Nginx FastCGI, maupun cache di tingkat proxy seperti Cloudflare, berikut adalah daftar laman dan cookies default yang sebaiknya tidak dicache.
+Bagi Anda yang menerapkan cache untuk meningkatkan kinerja WordPress, baik itu cache di tingkat aplikasi menggunakan plugin, page cache di tingkat server seperti Varnish, Nginx FastCGI, maupun cache di tingkat proxy seperti Cloudflare, berikut adalah daftar URI dan cookies yang sebaiknya tidak dicache.
 ## WordPress
 **URI**
 ```
