@@ -19,12 +19,12 @@ wordpress_test_cookie
 wordpress_[a-f0-9]+
 wp-postpass
 wp-settings-
+wp_lang
 comment_author_
 comment_author_url_
 comment_author_email_
 ```
-**Bacaan lebih lanjut:**
-https://developer.wordpress.org/advanced-administration/wordpress/cookies/
+**Bacaan lebih lanjut:** https://developer.wordpress.org/advanced-administration/wordpress/cookies/
 
 ## WooCommerce
 **URI**
@@ -43,9 +43,9 @@ wp_woocommerce_session_
 woocommerce_items_in_cart
 woocommerce_recently_viewed
 store_notice[notice id]
+_wc_session_
 ```
-**Bacaan lebih lanjut:**
-https://developer.woo.com/docs/how-to-configure-caching-plugins-for-woocommerce/
+**Bacaan lebih lanjut:** https://developer.woocommerce.com/docs/best-practices/performance/configuring-caching-plugins/
 
 ## Easy Digital Download
 **URI**
@@ -58,15 +58,16 @@ https://developer.woo.com/docs/how-to-configure-caching-plugins-for-woocommerce/
 **Cookies**
 ```
 edd_cart
-edd_purchase
 edd_cart_fees
-edd_saved_cart
+edd_cart_messages
 edd_cart_token
 edd_items_in_cart
-edd_cart_messages
+edd_purchase
 edd_resume_payment
-cart_discounts
+edd_saved_cart
+edd_session_*
 preset_discount
+cart_discounts
 ```
 **Bacaan lebih lanjut:**
 - https://easydigitaldownloads.com/docs/configure-cache/
