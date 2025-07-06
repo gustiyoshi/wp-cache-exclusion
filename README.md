@@ -7,6 +7,8 @@ Bagi Anda yang menerapkan cache untuk meningkatkan kinerja WordPress, baik itu c
 /wp-login.php
 /xmlrpc.php
 (\?|&)preview=
+wp-.*.php
+index.php
 ```
 **Cookies**
 ```
@@ -14,6 +16,7 @@ wordpress_
 wordpress_no_cache
 wordpress_logged_in_
 wordpress_test_cookie
+wordpress_[a-f0-9]+
 wp-postpass
 wp-settings-
 comment_author_
@@ -28,11 +31,13 @@ https://developer.wordpress.org/advanced-administration/wordpress/cookies/
 ```
 /cart/
 /addons/
+/wc-api
 /checkout/
 /my-account/
 ```
 **Cookies**
 ```
+woocommerce_
 woocommerce_cart_hash
 wp_woocommerce_session_
 woocommerce_items_in_cart
@@ -46,6 +51,7 @@ https://developer.woo.com/docs/how-to-configure-caching-plugins-for-woocommerce/
 **URI**
 ```
 /edd-sl/
+/edd-api
 /checkout/
 /purchase-confirmation/
 ```
@@ -69,7 +75,22 @@ preset_discount
 ## Lainnya
 **URI**
 ```
+/feed/
 robots.txt
 sitemap.xml
-
+sitemap(_index)?.xml
+ao_noptirocket
+ao_speedup_cachebuster
+removed_item
+```
+**Cookies**
+```
+bookly
+ec_
+ecwid
+jetpack
+wpsc_
+xf_
+yith_wcwl_session_
+yith_wrvp_
 ```
